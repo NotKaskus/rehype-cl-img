@@ -1,7 +1,7 @@
 import {Root, Element} from "hast";
 import {visit} from "unist-util-visit";
 import {Plugin, TransformCallback, VFileWithOutput} from "unified";
-import {RawDocumentData} from "@contentlayer/source-files";
+import {RawDocumentData} from "contentlayer/source-files";
 import path from "node:path";
 import sharp from "sharp";
 import fs from "fs/promises";
